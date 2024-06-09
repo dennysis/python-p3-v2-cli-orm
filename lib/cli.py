@@ -1,4 +1,3 @@
-
 from helpers import (
     exit_program,
     list_departments,
@@ -15,7 +14,6 @@ from helpers import (
     delete_employee,
     list_department_employees
 )
-
 
 def main():
     while True:
@@ -69,7 +67,6 @@ def menu():
     print("11: Update employee")
     print("12: Delete employee")
     print("13: List all employees in a department")
-
 
 if __name__ == "__main__":
     main()
